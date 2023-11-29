@@ -146,7 +146,7 @@ h3{
     display: flex;
     justify-content: center;
     height: 7vh;
-    margin: 5vh;
+    margin: 6.5vh;
 }
 .introbox{
     height: 40vh;
@@ -292,4 +292,5 @@ a{
 .size{
     width: 130%;
     height: 250%;
+    margin: 10px;
 }

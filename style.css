@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.food-card{
+    width: 40vh;
+    text-align: center;
+    box-shadow: 0px 5px 4px gray;
+}
+img{
+    width: 70%;
+    margin: 10px;
+
+}
+#jkl{
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0px 0px 0px 350px;
+    font-size: 22px;
+}
+h3{
+    padding-bottom: 5px;
+}
+.randomDiv .food-card:hover{
+    background-color: #722f19a1;
+    cursor: pointer;
+}
+#qwerty{
+    padding: 14px;
+    border-radius: 12px;
+    background-color: #722f19a1;
+    color: white;
+    /* font-family: 'Irish Grover', cursive; */
+}
+.randomDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+.randomDiv h1{
+    padding-top: 10vh;
+    padding-right: 10vh;
+}
+#searched-food{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#searched-food .food-card{
+    margin: 5vh;
+}
+.search-button-Div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ingredeints{
+    width: 40vh;
+    height: fit-content;
+    text-align: center;
+    border: 2px solid grey;
+    box-shadow: 0 0 4px gray;
+    border-radius: 1vh;
+    background-color: white;
+    cursor: pointer;
+    animation: popup 0.5s;
+}
+.ingredeintsDiv{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80%; 
+    background-color: rgba(0,0,0,0.4);
+}
+.recipeDiv{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+.showRecipe{
+    display: none;
+}
+.Recipe{
+    width: 25%;
+    height: fit-content;
+    text-align: center;
+    border: 2px solid grey;
+    box-shadow: 0 0 4px gray;
+    border-radius: 1vh;
+    background-color: white;
+    animation: popup 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Recipe img{
+    width: 30%;
+}
+@keyframes popup{
+    from{
+        scale:0.5;
+    }
+    to{
+        scale: 1;
+    }
+}
+.hide{
+    display: none;
+    /* border-radius: 12px;
+    background-color: #722f19a1;
+    color: white; */
+}
+.searchedDiv h1{
+    text-align: center;
+    padding: 16px;
+    margin-top: 20px;
+}
+.navbar{
+    width: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    margin: 5vh;
+}
+.introbox{
+    height: 40vh;
+    background-color: #722f19a1;
+    color: white;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20%;
+}
+.foodimg{
+    width: 60vh;
+    margin-bottom:0 ;
+}
+.tagline{
+    font-size: 10vh;
+    padding-top: 5vh;
+    font-family: 'Irish Grover', cursive;
+}
+footer{
+    background-color: #722f19a1;
+    color: black;
+    font-size: 3vh;
+    display: flex;
+    justify-content: space-around;
+}
+.footerimg{
+    width: 5vh;
+}
+.button{
+    border-radius: 5px;
+    border: none;
+    width: 20vh;
+    height: 5vh;
+    box-shadow: 0px 0px 4px grey;
+    color: white;
+    font-size: 2vh;
+    background-color: #722f19a1;
+    cursor: pointer;
+
+}
+#searchBox{
+    text-align: center;
+    width: 35vh;
+    border-radius: 5px;
+    border-style:inset;
+    border: none;
+    box-shadow: 0px 0px 4px grey;
+    color: black;
+    font-size: 110%;
+    background-color: white;
+    padding-bottom: 2vh;
+    margin-right: 4vh;
+}
+.notfound{
+    text-align: center;
+}
+#closeRecipe{
+    color: white;
+    background-color: #722f19a1;
+    border-radius: 5px;
+    box-shadow: 0 0 4px grey;
+    margin: 2vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    cursor: pointer;
+}
+#recipe-btn{
+    /* display: flex; */
+    height: 3vh; 
+    cursor: pointer;
+    color: white;
+    background-color: #722f19a1;
+    border-radius: 5px;
+    margin-right: 7vh;
+    margin-left: 7vh;
+    box-shadow: 0 0 4px grey;
+}
+a{
+    color: white;
+}
+#searchheading{
+    border-radius: 12px;
+    background-color: #722f19a1;
+    color: white;
+}
+@media only screen and  (max-width: 800px){
+    .foodimg{
+        display: none;
+    }
+    .tagline{
+        font-size: 8vh;
+    }
+    #qwerty{
+        width: 65vw;
+    }
+    .randomDiv{
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and  (max-width: 600px){
+
+.randomDiv{
+    display: block;
+    font-size: 70%;
+    margin-left: 3vh;
+}
+.introbox p{
+    color:black;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    margin: 4vh;
+}
+.searchedDiv .food-card{
+    margin-left: 2vh;
+}
+.randomDiv h1{
+    padding-top: 0vh;
+}
+.introbox p{
+    display: none;
+}
+.tagline{
+    padding-top: 0;
+    margin: 3vh;
+}
+.button{
+    margin-top: 2vh;
+}
+.Recipe{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+
+.size{
+    width: 130%;
+    height: 250%;
+}

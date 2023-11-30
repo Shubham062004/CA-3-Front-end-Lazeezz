@@ -1,5 +1,6 @@
 // NaamKaran 
 const randomCard=document.getElementById("random-food")
+const footerRandomCard=document.getElementById("footer-random-food")
 const ingredeintsCard=document.getElementById("ing")
 const recipebutton=document.querySelector(".recipe-btn")
 const recipeCard=document.getElementById("texting")
@@ -78,7 +79,7 @@ function SearchedFood(){
            })
         }
         else{
-                random= `<h3 class="notfound">category "${input}" not found</h3>`
+                random= `<h3 class="notfound">Category "${input}" Not Found</h3>`
             }
     document.getElementById("searched-food").innerHTML=random;
     }).catch((error)=>{
@@ -97,11 +98,11 @@ function SearchedFood(){
                 <img src=${meal.strMealThumb} >
                 <h3>Category</h3>
                 <p>${meal.strCategory}</p>   
-                <h3>ingredeints</h3>
+                <h3>Ingredeints</h3>
                 <p>${meal.strIngredient1} &nbsp ${meal.strIngredient2} &nbsp ${meal.strIngredient3}
                  <br>${meal.strIngredient4} &nbsp ${meal.strIngredient5} &nbsp ${meal.strIngredient6} &nbsp ${meal.strIngredient7}
                  <br>${meal.strIngredient8} &nbsp ${meal.strIngredient9} &nbsp ${meal.strIngredient10}</p>
-                 <div id="closeRecipe">close</div>
+                 <div id="closeRecipe">Close</div>
             </div>`;
                 
                 document.querySelector(".recipeDiv").style.display ="block"

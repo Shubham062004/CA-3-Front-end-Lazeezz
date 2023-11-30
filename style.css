@@ -44,7 +44,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 10vh;
+    padding-top: 2.2vh;
 }
 .randomDiv h1{
     padding-top: 10vh;
@@ -170,12 +170,9 @@ h3{
 footer{
     background-color: #722f19a1;
     color: black;
-    font-size: 3vh;
+    font-size: 21px;
     display: flex;
     justify-content: space-around;
-}
-.footerimg{
-    width: 5vh;
 }
 .button{
     border-radius: 5px;
@@ -187,7 +184,7 @@ footer{
     font-size: 2vh;
     background-color: #722f19a1;
     cursor: pointer;
-
+    
 }
 #searchBox{
     text-align: center;
@@ -199,7 +196,7 @@ footer{
     color: black;
     font-size: 110%;
     background-color: white;
-    padding-bottom: 2vh;
+    /* padding-bottom: 2vh; */
     margin-right: 4vh;
 }
 .notfound{
@@ -250,12 +247,12 @@ a{
     }
 }
 @media only screen and  (max-width: 600px){
-
-.randomDiv{
-    display: block;
-    font-size: 70%;
-    margin-left: 3vh;
-}
+    
+    .randomDiv{
+        display: block;
+        font-size: 70%;
+        margin-left: 3vh;
+    }
 .introbox p{
     color:black;
 }
@@ -288,9 +285,58 @@ a{
 }
 }
 
-
 .size{
     width: 130%;
     height: 250%;
     margin: 10px;
+}
+
+.bhj{
+    display: flex;
+    justify-content: center;
+}
+
+#jkl {
+    margin-left: 0px;
+}
+
+.flex-foot{
+    display: flex;
+    gap: 235px;
+}
+.text-dec{
+    text-decoration: none;
+    color: black;
+}
+
+.white{
+    color: white;
+}
+
+.hight{
+    height: 3vh;
+}
+
+.margi-t15{
+    font-size: 14px;
+}
+
+.flex-foot-div{
+    display: flex;
+    gap: 10px;
+}
+
+footer{
+    padding-bottom: 20px;
+}
+
+
+.footerimg{
+    width: 3vh;
+}
+
+.foot-si{
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding: 0px;
 }

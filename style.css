@@ -22,6 +22,9 @@ img{
     /* justify-content: center;
     align-items: center; */
     margin: 0px 0px 0px 350px;
+    
+}
+.jkl{
     font-size: 22px;
 }
 h3{
@@ -231,12 +234,14 @@ a{
     background-color: #722f19a1;
     color: white;
 }
+
+/* tab view */
 @media only screen and  (max-width: 800px){
     .foodimg{
         display: none;
     }
     .tagline{
-        font-size: 8vh;
+        font-size: 6.5vh;
     }
     #qwerty{
         width: 65vw;
@@ -245,7 +250,17 @@ a{
         justify-content: center;
         align-items: center;
     }
+    .bhj{
+        font-size: 2.5vh;
+        padding-bottom: 10px;
+    }
+    .introbox{
+        height: 25vh;
+    }
+
 }
+
+
 @media only screen and  (max-width: 600px){
     
     .randomDiv{
@@ -339,4 +354,41 @@ footer{
     font-size: 35px;
     margin-bottom: 20px;
     padding: 0px;
+}
+
+.line{
+    border: 0.5px solid white;
+    border-radius: 100%;
+    margin: 22px;
+    width: 50%;
+}
+
+.line-parent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cre-social{
+    display: flex;
+    /* height: 10vh;
+    width: 10vw; */
+}
+.about-creator{
+    display: flex;
+    justify-content: space-between;
+}
+.cr-size{
+    height: 3vh;
+    width: 2vw;
+}
+
+.cre-text{
+    font-size: 16px;
+    margin: 11px;
+}
+
+.footer-random-food-vid{
+    height: 10%;
+    width: 100%;
 }
